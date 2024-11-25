@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.henri-funck" name="Henri Funck Repository" provider-name="Henri Funck" version="0.0.1">
+  <extension point="xbmc.addon.repository" name="Henri Funck Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/henri-funck/repository.henri-funck/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/henri-funck/repository.henri-funck/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/henri-funck/repository.henri-funck/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by Henri Funck</description>
+    <license />
+    <language />
+    <website />
+    <news />
+    <assets>
+    </assets>
+  </extension>
+</addon><addon id="service.librespot_connect" name="Librespot Connect" version="0.0.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="service.py">
+    <provides />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Librespot Connect: play Spotify through Kodi using a Spotify app as a remote</summary>
+    <description lang="en_GB">Librespot Connect lets you play Spotify through Kodi using a Spotify app as a remote.</description>
+    <disclaimer lang="en_GB">Requires ffmpeg and librespot to run, and a Spotify Premium account to use.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GPLv3</license>
+    <forum>TBD</forum>
+    <website>TBD</website>
+    <source>TBD</source>
+    <news>
+    Initial release
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="service.librespot_connect" name="Librespot Connect" version="0.0.2">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="service.py">
+    <provides />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Librespot Connect: play Spotify through Kodi using a Spotify app as a remote</summary>
+    <description lang="en_GB">Librespot Connect lets you play Spotify through Kodi using a Spotify app as a remote.</description>
+    <disclaimer lang="en_GB">Requires ffmpeg and librespot to run, and a Spotify Premium account to use.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GPLv3</license>
+    <forum>TBD</forum>
+    <website>TBD</website>
+    <source>TBD</source>
+    <news>
+    Initial release
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="service.librespot_connect" name="Librespot Connect" version="0.0.3">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="service.py">
+    <provides />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Librespot Connect: play Spotify through Kodi using a Spotify app as a remote</summary>
+    <description lang="en_GB">Librespot Connect lets you play Spotify through Kodi using a Spotify app as a remote.</description>
+    <disclaimer lang="en_GB">Requires ffmpeg and librespot to run, and a Spotify Premium account to use.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GPLv3</license>
+    <forum>https://github.com/henri-funck/service.librespot_connect/issues</forum>
+    <website>https://github.com/henri-funck/service.librespot_connect</website>
+    <source>https://github.com/henri-funck/service.librespot_connect</source>
+    <news>
+    Initial release
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon></addons>
